@@ -8,3 +8,50 @@
     text-decoration: underline;
   }
 }
+
+.jumbotron {
+   background: url(../images/pirate-ship.jpg) no-repeat top;
+   background-size: cover;
+   min-height: 475px;
+   text-align: center;
+   color: white;
+   font-family: fantasy;
+   .display-4 {
+     margin-top: 150px;
+     font-size: 40px;
+   }
+ }
+
+h2 {
+  font-family: fantasy;
+  font-weight: bold;
+ }
+
+.byline {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.source {
+  font-style: italic;
+}
+
+.bio {
+  border-right: 1px solid grey;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  background-color: grey;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.carousel {
+  margin-bottom: 20px;
+}
